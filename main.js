@@ -1,3 +1,6 @@
 $(document).ready(function() {
-  console.log('jquery test');
+  $.getJSON('example.json', function(data) {
+    console.log('getJSON test');
+    console.log(data);
+  });
 });

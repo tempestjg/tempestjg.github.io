@@ -1,0 +1,7 @@
+{
+  name: "example",
+  data: [
+    "hello",
+    "world"
+  ]
+}
